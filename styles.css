@@ -1,0 +1,29 @@
+/* Cambia color del botón */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e94e1b;
+  transform: scale(1.05);
+}
+
+/* Agrega sombra y borde redondeado a las cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Media Query: cambia color de fondo del footer en pantallas pequeñas */
+@media (max-width: 576px) {
+  footer {
+    background-color: #ffe6e1;
+  }
+}
